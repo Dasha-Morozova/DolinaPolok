@@ -1,0 +1,11 @@
+        .product-gallery img {
+            max-height: 80px !important;
+			max-width: 80px !important;
+            cursor: pointer !important;
+        }
+        .main-photo img {
+            height: 450px !important;            
+            object-fit: cover !important;
+        }
+		.contnt {
+		max-width: 1100px !important;	}

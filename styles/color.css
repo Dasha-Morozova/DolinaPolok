@@ -1,0 +1,130 @@
+.lavand-1 {
+	background-color: #D9C3E6 !important;
+}
+.lavand-dark {
+	background-color: #655CAB !important;
+}
+.lavand-2{
+	background-color: #F0E9F8 !important;
+}
+.cl-dark {
+	
+	background-color: #544C95 !important;
+}
+.bg-pink {
+	background-color: #FFF5FA !important;
+	
+}
+.bg-blue {
+	background-color: #F7F9FF !important;
+}
+.blue-1 {
+	background-color: #F8F7FF !important;
+	
+}
+.bg-light {
+	background-color: #fffafa !important;
+	
+}
+
+.bg-yellow {
+	background-color: #ffea76 !important;
+}
+.bg-green{
+	background-color: #7ff03e !important;
+}
+.process {
+	background-color: #ffea76 !important;
+}
+.completed {
+	background-color: #7ff03e !important;
+}
+
+.text_drk_lv {
+	color:#544C95 !important;
+}
+.logo{
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #544C95 ;
+}
+.card-1 {
+	background-color: #f7f7ff;
+
+}
+
+.btn-main-1 {
+	background-color: #655CAB !important;
+	color: white !important;
+	border-color:transparent !important;
+}
+
+.btn-main-1:hover {
+	background-color: #554d91 !important;
+
+}
+
+.btn-2 {
+	background-color: #966DC7 !important;
+	color: white !important;
+	border-color:transparent !important;
+}
+.btn-2:hover  {
+	background-color: #675a7e !important;
+
+}
+
+.contnt1 {
+		max-width: 1100px;	}
+		
+		
+.w-33 {
+        width: 33%;
+}
+.my-page-link {
+	color: #655CAB !important;
+}	
+.active>.my-page-link {
+	background-color:#655CAB !important;
+	color: white !important;
+	border: #655CAB !important;
+}		
+
+
+
+.badge {
+            
+	padding: 7px 9px;
+	border-radius: 8px;
+}
+
+.my-flex {
+    display: flex !important;
+    justify-content: center !important; 
+    align-items: center !important;     
+}
+  footer {
+	margin-top: auto;
+
+    
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+  }
+        html, body {
+            height: 100%; 
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+
+        main {
+            flex: 1; 
+			
+		        
+					margin-bottom: 15px;	
+        }		
