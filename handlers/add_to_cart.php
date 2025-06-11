@@ -8,19 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user_id = 22;
 
     if ($product_id && $user_id) {
-       
-        //session_start(); // Начинаем сессию (если еще не начата)
 
-        //if (!isset($_SESSION['cart'])) {
-        //    $_SESSION['cart'] = []; // Создаем корзину, если ее нет
-        //}
-
-        // Добавляем товар в корзину
-        //if (isset($_SESSION['cart'][$productId])) {
-        //    $_SESSION['cart'][$productId] += 1; // Увеличиваем количество, если товар уже в корзине
-        //} else {
-        //    $_SESSION['cart'][$productId] = 1; // Добавляем товар в корзину
-        //}
 
         try {
             $pdo = new PDO('pgsql:host=localhost;port=5433;dbname=valleyb', "mainuser", "Town56Mercury");
